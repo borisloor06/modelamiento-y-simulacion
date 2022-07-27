@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %} Home {% endblock %}
+{% block content %}
+
+<center>
+    <br>
+    <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ventas de un supermercado</h1>
+    <hr>
+    <div class="card row mb-12">
+        <div class="col-mb-6">
+            <div class="card">
+                <div class="card-body">
+                    <img class="col-sm-6" src="{{ url_for('static', filename='supermarket.jfif') }}">
+                </div>
+            </div>
+        </div>
+        <div class="col card-body">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="nav-link" href="/">
+                        <img src="{{ url_for('static', filename='uleam.png') }}" style="width: 250px; height:80px"
+                            class="card-img-top" alt="Grafica por fecha">
+                    </a>
+                    <a class="nav-link" href="#">
+                        <h3 class="card-title" align="center">Universidad Laica Eloy Alfaro de Manabi</h3><br/><br/>
+                        <h4 class="card-text" align="center">Facultad de Ciencias Informaticas</h4><br/>
+                    </a>
+                    <a class="nav-link" href="/">
+                        <img src="{{ url_for('static', filename='facci.jpg') }}" style="width: 250px; height:80px"
+                            class="card-img-top" alt="Grafica por fecha">
+                    </a>
+                </div>
+            </nav>
+            <h4 class="card-text" align="center">Tecnologias de la información</h4><br/>
+            <h4 class="card-text" align="center">Modelamiento y simulación</h4><br/>
+            <h4 class="card-text" align="center">Ing. Jorge Aníbal Moya Delgado</h4><br/>
+            <h4 class="card-text" align="center">Boris Leonel Loor Barreto</h4><br/>
+            <h4 class="card-text" align="center">Sexto Semestre</h4><br/>
+            <h3 class="card-title" style="font-size:20px;"><strong>Proyecto simulación</strong></h3>
+            <p class="card-text" align="justify" style="font-size: 18px;">Este sistema está basado en las técnicas de modelamiento y simulación las cuales
+                permiten hacer una serie de procesos en base a los datos extraídos desde varias sucursales de un supermercado durantes los primeros meses del año 2019. <br>
+            </p>
+        </div>
+    </div>
+</center>
+
+
+
+{% endblock %}

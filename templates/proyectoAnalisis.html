@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% block title %} Análisis {% endblock %}
+{% block content %}
+<center>
+  <br>
+  <h2 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>Análisis</strong>
+  </h2>
+  <br><br>
+</center>
+<div class="card my-3 w-100">
+  <div class="row g-0">
+    <div class="col-md-8">
+      <img src="data:image/png;base64,{{imagen1}}" class="img-fluid rounded-start" alt="grafica">
+    </div>
+    <div class="col-md-4">
+      <div class="card-body">
+        <center>
+          <br><br><br>
+          <h5 class="card-title"><strong>Preferencias por género del cliente</strong></h5>
+        </center>
+        <p class="card-text" align="justify">En base a la gráfica obtenida podemos analizar y deducir que los compradores de este establecimiento se encuentrar distribuidos en su mayoria equitativamente entre hombres y mujeres,
+          es decir no existe una inclinación especifica por parte de ninguno de estos por realizar compras en el supermercado
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card my-3 w-100">
+  <div class="row g-0">
+    <div class="col-md-12">
+      <img src="data:image/png;base64,{{imagen2}}" class="img-fluid rounded-start" alt="grafica">
+    </div>
+    <div class="col-md-12">
+      <div class="card-body">
+        <center>
+          <br><br><br>
+          <h5 class="card-title"><strong>Frecuencia de Ventas</strong></h5>
+        </center>
+        <p class="card-text" align="justify">Podemos ver que existe una distribucion inclinada a la derecha o de sesgo positivo, indicando
+            que los ingresos de los establecimiemos se encuentran en su mayoria en un rango de ventas entre 62 y 113 dólares, es decir la mayoria de las Ventas
+            de los supermercados son por compras necesarias pocas veces alcanzando los miles de dolares
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card my-3 w-100">
+  <div class="row g-0">
+    <div class="col-md-8">
+      <img src="data:image/png;base64,{{imagen3}}" class="img-fluid rounded-start" alt="grafica">
+    </div>
+    <div class="col-md-4">
+      <div class="card-body">
+        <center>
+          <br><br><br><br>
+          <h5 class="card-title">Ingresos en cada establecimiento</h5>
+        </center>
+        <p class="card-text" align="justify">Se puede inferir que las ventas sin importar la sucursal tienden a bajar en el mes de febrero, esto posiblemente tras la finalización 
+          de los feriados del mes de diciembre y enero, pero una vez comienza el mes de marzo las ventas vuelven a la normalidad mostrando una significativa mejora en los ingresos</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card my-3 w-100">
+  <div class="row g-0">
+    <div class="col-md-8">
+      <img src="data:image/png;base64,{{imagen4}}" class="img-fluid rounded-start" alt="grafica">
+    </div>
+    <div class="col-md-4">
+      <div class="card-body">
+        <center>
+          <br><br><br><br>
+          <h5 class="card-title">Tipo de pago preferido de cada sucursal</h5>
+        </center>
+        <p class="card-text" align="justify">Se observa una tendencia al cambio de método de pago,
+          inclinándose cada vez más hacia métodos de pagos electrónicos como E-wallet
+          en dos de las tres sucursales, aun así en la tercera sucursal se sigue manteniendo
+          el efectivo como método de pago preferido</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
