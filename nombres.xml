@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCTORES>
+	<doctor>
+		<NOMBRES>
+			Luis Enrique
+		</NOMBRES>
+		<APELLIDOS>
+			Cantos Palacios
+		</APELLIDOS>
+		<ESPECIALIDAD>
+			Medico general
+		</ESPECIALIDAD>
+		<DIAS>
+			Lunes,Miercoles
+		</DIAS>
+	</doctor>
+	<doctor>
+		<NOMBRES>
+			Karla Scarlett
+		</NOMBRES>
+		<APELLIDOS>
+			Arroyo Ferrin
+		</APELLIDOS>
+		<ESPECIALIDAD>
+			Ginecologia
+		</ESPECIALIDAD>
+		<DIAS>
+			Viernes
+		</DIAS>
+	</doctor>
+	<doctor>
+		<NOMBRES>
+			Ricardo
+		</NOMBRES>
+		<APELLIDOS>
+			Cerezo Castillo
+		</APELLIDOS>
+		<ESPECIALIDAD>
+			Otorrinolaringologia
+		</ESPECIALIDAD>
+		<DIAS>
+			Martes
+		</DIAS>
+	</doctor>
+	<doctor>
+		<NOMBRES>
+			Maria Jose
+		</NOMBRES>
+		<APELLIDOS>
+			Verduga Freire
+		</APELLIDOS>
+		<ESPECIALIDAD>
+			Cardiologia
+		</ESPECIALIDAD>
+		<DIAS>
+			Jueves
+		</DIAS>
+	</doctor>
+</DOCTORES>
